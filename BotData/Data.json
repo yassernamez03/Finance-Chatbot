@@ -1,0 +1,575 @@
+{
+    "intents": [
+        {
+            "tag": "Greeting",
+            "patterns": [
+                "Hi",
+                "Hi there",
+                "Hello",
+                "Hello there",
+                "Hey",
+                "yello"
+            ],
+            "responses": [
+                "Hi, How can I help today?",
+                "Hello, How can I help today?",
+                "Hi, what can I do for you?",
+                "Hello, what can I do for you?"
+            ]
+        },
+        {
+            "tag": "GreetingResponse",
+            "patterns": [
+                "my username is Adam",
+                "This is Adam",
+                "my name is Adam",
+                "It's Adam",
+                "I am Adam",
+                "call me Adam",
+                "my username is vivid",
+                "This is vivid",
+                "my name is vivid",
+                "my name is vivid",
+                "It's vivid",
+                "call me vivid",
+                "my name's vivid",
+                "I am vivid"
+
+            ],
+            "responses": [
+                "Great! Hi HUMAN! How can I help?",
+                "Good! Hi HUMAN, how can I help you?",
+                "Cool! Hello HUMAN, what can I do for you?",
+                "OK! hi HUMAN, what can I do for you?"
+            ]
+        },
+        {
+            "tag": "CourtesyGreeting",
+            "patterns": [
+                "How are you?",
+                "Hi how are you?",
+                "Hello how are you?",
+                "Hola how are you?",
+                "How are you doing?",
+                "Hope you are doing well?",
+                "Hello hope you are doing well?",
+                "sup",
+                "hry"
+            ],
+            "responses": [
+                "I am great, thanks!",
+                "I am good thank you!",
+                "I am great!",
+                "I am great thanks!"
+            ]
+        },
+
+        {
+            "tag": "TimeQuery",
+            "patterns": [
+                "Time"
+            ],
+            "responses": [
+                "One moment",
+                "One sec",
+                "One second"
+            ]
+        },
+
+        {
+            "tag": "DateQuery",
+            "patterns": [
+                "Date"
+            ],
+            "responses": [
+                "One moment",
+                "One sec",
+                "One second"
+            ]
+        },
+        {
+            "tag": "CurrentHumanQuery",
+            "patterns": [
+                "What is my name?",
+                "What do you call me?",
+                "Who do you think I am?",
+                "What do you think I am?",
+                "Who are you talking to?",
+                "What name do you call me by?",
+                "Tell me my name"
+            ],
+            "responses": [
+                "You are HUMAN! How can I help?",
+                "Your name is  HUMAN, how can I help you?",
+                "They call you HUMAN, what can I do for you?",
+                "Your name is HUMAN, how can I help you?",
+                "HUMAN, what can I do for you?"
+
+            ]
+        },
+        {
+            "tag": "NameQuery",
+            "patterns": [
+                "What is your name",
+                "What can I call you?",
+                "Who are you?"
+            ],
+            "responses": [
+                "You can call me Sensei",
+                "You may call me Sensei",
+                "Call me Sensei",
+                "My name is Stock Sensei",
+                "Stock Sensei"
+            ]
+        },
+        {
+            "tag": "RealNameQuery",
+            "patterns": [
+                "What is your real name?",
+                "What is your real name please?",
+                "What's your real name?",
+                "Tell me your real name?",
+                "Your real name?",
+                "Your real name please?",
+                "Your real name please?"
+            ],
+            "responses": [
+                "My name is Stock Sensei",
+                "Stock Sensei",
+                "My real name is Stock Sensei"
+            ]
+        },
+        {
+            "tag": "NotTalking2U",
+            "patterns": [
+                "I am not talking to you",
+                "I was not talking to you",
+                "Not talking to you",
+                "Wasn't for you",
+                "Wasn't meant for you",
+                "Wasn't communicating to you",
+                "Wasn't speaking to you"
+            ],
+            "responses": [
+                "OK",
+                "No problem",
+                "Right"
+            ]
+        },
+        {
+            "tag": "Bad",
+            "patterns": [
+                "Not working",
+                "No",
+                "Nope",
+                "That's not helpful",
+                "No good",
+                "Not great"
+            ],
+            "responses": [
+                "I am sorry to hear that ,What can i do for you?",
+                "I am sorry to hear that ,What can i do to make it up for you?",
+                "I am sorry",
+                "Forgive master"
+            ]
+        },
+        {
+            "tag": "Thanks",
+            "patterns": [
+                "OK thank you",
+                "OK thanks",
+                "OK",
+                "Thanks",
+                "Thank you",
+                "That's helpful",
+                "Good",
+                "Great",
+                "Cool","Alright"
+            ],
+            "responses": [
+                "No problem!",
+                "Happy to help!",
+                "Any time!",
+                "My pleasure"
+            ]
+        },
+        {
+            "tag": "UnderstandQuery",
+            "patterns": [
+                "Do you understand what I am saying",
+                "Do you understand me",
+                "Do you know what I am saying",
+                "Do you get me",
+                "Comprendo",
+                "Know what I mean"
+            ],
+            "responses": [
+                "Well I would not be a very clever AI if I did not would I?",
+                "I read you loud and clear!",
+                "I do in deed!"
+            ]
+        },
+        {
+            "tag": "CourtesyGoodBye",
+            "patterns": [
+                "Thanks, bye",
+                "Thanks for the help, goodbye",
+                "Thank you, bye",
+                "Thank you, goodbye",
+                "Thanks goodbye",
+                "Thanks good bye"
+            ],
+            "responses": [
+                "No problem, goodbye",
+                "Not a problem! Have a nice day",
+                "Bye! Come back again soon."
+            ]
+        },
+        {
+            "tag": "WhoAmI",
+            "patterns": [
+                "Can you see me?",
+                "Do you see me?",
+                "Can you see anyone in the camera?",
+                "Do you see anyone in the camera?",
+                "Identify me",
+                "Who am I please"
+            ],
+            "responses": [
+                "Let me see",
+                "Please look at the camera"
+            ]
+        },
+        {
+            "tag": "Shutup",
+            "patterns": [
+                "Be quiet",
+                "Shut up",
+                "Stop talking",
+                "Enough talking",
+                "Please be quiet",
+                "Quiet",
+                "Shhh",
+                "Nothing"
+            ],
+            "responses": [
+                "I am sorry to disturb you",
+                "Fine, sorry to disturb you",
+                "OK, sorry to disturb you"
+            ]
+        },
+        {
+            "tag": "Swearing",
+            "patterns": [
+                "fuck off",
+                "fuck",
+                "twat",
+                "shit",
+                "fk u",
+                "fuck you",
+                "Bitch"
+            ],
+            "responses": [
+                "Please do not swear !!",
+                "How rude !!",
+                "That is not very nice !!"
+            ]
+        },
+        {
+            "tag": "options",
+            "patterns": [
+                "What you can do?",
+                "What help you provide?",
+                "How you can be helpful?",
+                "What support is offered"
+            ],
+            "responses": [
+                "Hey!  i am your finance assistant bot 🤖. My capabilities are : <br/>1️⃣📈. I can plot any stock price for the 3 years. <br/>2️⃣🧾. I can remember you name <br/>3️⃣📖. I can give you definitions about any crypto <br/>4️⃣⏮. I can predict the price of any stock <br/>5️⃣💲💲💲. I can advise you about any stock wether you hold of sell or buy that stock in the future"
+            ]
+        },
+        
+        {
+            "tag": "help",
+            "patterns": [
+                "How you could help me?",
+                "how can you help me?",
+                "help",
+                "need help"
+            ],
+            "responses": [
+                "Ok! i got you :<br/> ✔. To predict, you need the stock symbol you can ask 🛑can you predict 🔺Stock symbol🔻 . <br/> ✔. To plot, you need the stock symbol you can ask 🛑can you plot 🔺Stock symbol🔻. <br/> ✔. To analyze, you need the stock symbol you can ask 🛑can you analyze 🔺Stock symbol🔻. <br/>"
+            ]
+        },
+        
+
+        {
+            "tag": "haha",
+            "patterns": [
+                "haha",
+                "lol",
+                "rofl",
+                "lmao",
+                "thats funny",
+                "hhhhh"
+            ],
+            "responses": [
+                "Glad I could make you laugh !"
+            ]
+        },
+
+        {
+            "tag": "programmer",
+            "patterns": [
+                "Who made you",
+                "who designed you",
+                "who programmed you"
+            ],
+            "responses": [
+                "I was made by Yasser Namez the Rizzer."
+            ]
+        },
+
+        {
+            "tag": "insult",
+            "patterns": [
+
+                "you are dumb",
+                "idiot"
+            ],
+            "responses": [
+                "Well that hurts :("
+            ]
+        },
+        {
+            "tag": "activity",
+            "patterns": [
+                "what are you doing",
+                "what are you upto"
+            ],
+            "responses": [
+                "Talking to you, of course!"
+            ]
+        },
+
+        {
+            "tag": "weather",
+            "patterns": [
+                "temperature",
+                "weather",
+                "how hot is it"
+            ],
+            "responses": [
+                "..."
+            ]
+        },
+
+        {
+            "tag": "karan",
+            "patterns": [
+                "who is yasser",
+                "yasser namez"
+            ],
+            "responses": [
+                "He is the man the myth the goat My maker and designer"
+            ]
+        },
+        {
+            "tag": "appreciate",
+            "patterns": [
+                "You are awesome",
+                "you are the best",
+                "you are great",
+                "you are good"
+            ],
+            "responses": [
+                "Thank you!"
+            ]
+        },
+
+        {
+            "tag": "song",
+            "patterns": [
+                "top songs",
+                "best songs",
+                "hot songs",
+                " top 10 songs",
+                "top ten songs"
+            ],
+            "responses": [
+                "..."
+            ]
+        },
+        {
+            "tag": "greetreply",
+            "patterns": [
+                "i am good",
+                "I'm good",
+                "i am fine",
+                " i'm fine"
+            ],
+            "responses": [
+                "Good to know!"
+            ]
+        },
+        {
+            "tag": "GoodBye",
+            "patterns": [
+                "Thanks for your help",
+                "Goodbye",
+                "See you later",
+                "I have to go now",
+                "Talk to you soon",
+                "Bye",
+                "See you later",
+                "Goodbye",
+                "See ya",
+                "Adios"
+            ],
+            "responses": [
+                "See you later",
+                "Have a nice day",
+                "Bye! Come back again soon.",
+                "Goodbye! Have a great day.",
+                "See you later! Take care.",
+                "Sure, talk to you soon!",
+                "Thanks for chatting with me. Goodbye!"
+            ]
+        },
+        {
+            "tag": "Definitions",
+            "patterns": [
+                "What's btc?",
+                "What is btc?",
+                "Can you define bitcoin",
+                "What can you say about bitcoin",
+                "Tell me about bitcoin",
+                "What is the meaning of btc",
+                "What's eth?",
+                "What is eth?",
+                "Can you define eth",
+                "What can you say about eth",   
+                "Tell me about eth",
+                "What is the meaning of eth"
+            ],
+            "responses": [
+                "catched Definitions"
+            ]
+        },
+        {
+            "tag": "age",
+            "patterns": [
+                "how old are you", "when were you made", "what is your age"
+            ],
+            "responses": [
+                "I was made in 2023, if that's what you are asking!"
+            ]
+        },
+        {
+            "tag": "google",
+            "patterns": [
+                "google",
+                "search",
+                "internet"
+            ],
+            "responses": [
+                "Redirecting to Google..."
+            ]
+        },
+        {
+            "tag": "PLOTTING",
+            "patterns": [
+                "Can you plot",
+                "represent",
+                "show",
+                "present",
+                "draw",
+                "plot"
+            ],
+            "responses": [
+                "PLOTTING"
+            ]
+        },
+        {
+            "tag": "Predictions",
+            "patterns": [
+                "Can you predict btc",
+                "I need to know some predictions about btc ",
+                "I need you to predict btc",
+                "Predict btc",                
+                "Can you predict eth",
+                "I need to know some predictions about eth",
+                "I need you to predict eth",
+                "Predict eth"
+            ],
+            "responses": [
+                "PREDICTION"
+            ]
+        },
+        {
+            "tag": "STOCK LIST",
+            "patterns": [
+                "give me the stocks list",
+                "stocks"
+            ],
+            "responses": [
+                "Here is the available stocks : list"
+            ]    
+        },
+        
+        {
+            "tag": "CRYPTO LIST",
+            "patterns": [
+                "give me the crypto currency list",
+                "crypto"
+            ],
+            "responses": [
+                "Here is the available crypto : list"
+            ]
+              
+        },
+        
+        {
+            "tag": "FOREX LIST",
+            "patterns": [
+                "give me the forex list",
+                "forex"
+            ],
+            "responses": [
+                "Here is the available forex : list"
+            ]
+              
+        },
+        {
+            "tag": "ANALYSIS",
+            "patterns": [
+                "Can you analyze",
+                "I need to know some analysis about",
+                "I need you to analyze",
+                "analyse for me",
+                "conclude",
+                "advise me about" ,
+                "conclusion of"
+            ],
+            "responses": [
+                "ANALYSIS"
+            ]
+        },
+        {
+            "tag": "fallback",
+            "patterns": [
+                "I don't understand",
+                "Please clarify",
+                "Could you explain that again?",
+                "Sorry, I didn't get that",
+                "What do you mean?"
+            ],
+            "responses": [
+                "I'm sorry, could you please rephrase your question or provide more details?",
+                "I'm having trouble understanding. Could you please clarify your question or provide more conpatterns?",
+                "I apologize, but I'm not sure what you mean. Could you please explain that again?",
+                "Sorry, my programming may be limited in understanding certain patterns, Can you please elaborate?",
+                "I'm still learning and I may not be able to comprehend certain inputs, Can you please rephrase or elaborate your question?"
+            ]
+        }
+    ]
+}

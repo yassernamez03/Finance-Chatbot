@@ -1,0 +1,49 @@
+{% extends "base.html" %}
+{% block title %}Home{% endblock %}
+{% block content %}
+    <section class="section-1-homepage">
+        <div class="container">
+            <h2>Introducing <span style="color:var(--primary);">StockSensei</span>,</h2>
+            <p>the revolutionary chat-based assistant that takes the guesswork out of stock and cryptocurrency predictions. With its cutting-edge artificial intelligence algorithms, StockSensei delivers accurate market insights and visually appealing graphs, keeping you ahead of the game. Say goodbye to hours of research and analysis and hello to instant, reliable financial forecasts. Let StockSensei be your go-to guide for making informed investment decisions.</p>
+            <div class="btn-container">
+                <button class="primary" onclick="window.location='{{ url_for('signup') }}'">Get Started</button>
+                <button class="secondary" onclick="window.location='{{ url_for('login') }}'">Already a Member</button>
+            </div>
+        </div>
+        <div class="robot-image"></div>
+        <div class="robot-image-shadow"></div>
+    </section>
+
+    <section class="seciton-2-homepage">
+        <div class="container">
+            <p>Database</p>
+            <ul class="list">
+                <li>MongoDB</li>
+            </ul>
+        </div>
+        <div class="container">
+            <p>Technologies</p>
+            <ul class="list">
+                <p>Frontend</p>
+                <li>HTML</li>
+                <li>CSS</li>
+                <li>JS</li>
+                <li>AJAX</li>
+                <p>Backend</p>
+                <li>Flask</li>
+                <p>Prediction & NLP</p>
+                <li>NLTK</li>
+                <li>Scikit-learn</li>
+            </ul>
+        </div>
+        <div class="container">
+            <p>APIs</p>
+            <ul class="list">
+                <li>Yahoo Finance</li>
+                <li>Twelve Data</li>
+                <li>CoinMarketCapAPI</li>
+            </ul>
+        </div>
+    </section>
+
+{% endblock %}
