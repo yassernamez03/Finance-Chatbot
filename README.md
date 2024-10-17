@@ -16,7 +16,7 @@ This repository contains a chatbot application designed to assist users with fin
 
 Watch the demo video of the application in action:
 
-[![Watch the demo video](https://img.youtube.com/vi/YourDemoVideoID/0.jpg)](https://youtu.be/defbE6fyKOE)
+Watch the demo here: [Finance Chatbot App Video Demo](https://youtu.be/defbE6fyKOE)
 
 ## Prerequisites
 
