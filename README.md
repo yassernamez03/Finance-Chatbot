@@ -24,15 +24,6 @@ Check out the demo video of the Finance Chatbot App in action:
 - Flask
 - Natural Language Processing libraries (e.g., NLTK, spaCy)
 
-## Directory Structure
-
-finance-chatbot/
-├── app.py                # Main application file
-├── requirements.txt      # List of dependencies
-├── static/               # Static files (CSS, images, etc.)
-└── templates/            # HTML templates for the chatbot interface
-
-
 ## Contributing
 
 Contributions are welcome! Please create a pull request or open an issue to discuss your ideas.
